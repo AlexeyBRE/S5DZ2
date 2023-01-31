@@ -8,11 +8,11 @@ int sum = 0;
 for (int i = 0; i < num.Length; i++)
 {
 
-    num[i] = new Random().Next(-100,100);
+    num[i] = new Random().Next(-100, 100);
 
     if (i % 2 == 0)
     {
-        sum=sum+num[i];
+        sum = sum + num[i];
     }
 }
 string mas = string.Join(" ", num);
